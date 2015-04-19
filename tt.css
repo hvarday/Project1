@@ -1,0 +1,86 @@
+a{
+    color: rgb(18, 149, 200);
+    text-decoration: none;
+}
+.thhr{
+    width: 65px;
+    background-color:#C0C0C0;
+    height: 50px;
+}
+.labhr{
+    width:65px ;
+    height:54px;
+    background-color: #C0C0C0;
+}
+.day{
+    text-align: center;
+    background-color: #C0C0C0
+}
+.tfree{
+    background-color: #FFFFCC;
+    color:#CCCCFF;
+}
+.lfree{
+    background-color: #FFFFCC;
+    color: #99CCFF;
+}
+.ttim{
+    width: 60px;
+    height: 50px;
+    background-color: #CCCCFF;
+}
+.lunch{
+    width: 10px;
+    /*row-span: 8; rowspan cant be applied through css*/
+    background-color: #C0C0C0;
+}
+.ltim{
+    width: 60px;
+    height: 50px;
+    background-color: #99CCFF;
+}
+body{
+    cursor: default;
+}
+.cseinf , .mat6inf , .mat5inf , .enginf , .cselinf , .chemlinf , .eginf , .matl5inf , .englinf , .cheminf{
+    width: 350px;
+    color: white;
+    text-decoration: solid;
+    background-color: #4448ff;
+    float: right;
+    position: absolute;
+    top: 3em;
+    right: 1em;
+    padding-left: 5px;
+    display: none;
+}
+.cse:hover ~ .cseinf{
+    display: block;
+}
+.mat6:hover ~ .mat6inf{
+    display:block;
+}
+.mat5:hover ~ .mat5inf{
+    display:block;
+}
+.eng:hover ~.enginf{
+    display:block;
+}
+.chem:hover ~ .cheminf{
+    display:block;
+}
+.eg:hover ~ .eginf{
+    display:block;
+}
+.cheml:hover ~ .chemlinf{
+    display:block;
+}
+.mat5l:hover ~ .matl5inf{
+    display:block;
+}
+.engl:hover ~ .englinf{
+    display:block;
+}
+.csel:hover ~ .cselinf{
+    display: block;
+}
