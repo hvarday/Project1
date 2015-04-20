@@ -2,9 +2,52 @@
     background-color: dodgerblue;
     display: inline-block;
     padding:5px;
-    border-radius: 5px;
+    /* border-radius: 5px 0 0 5px;*/
     color: black;
     font-size: 30px;
+    float: left;
+    cursor: default;
+    margin-top: 58px;
+}
+#Bar{
+    visibility: hidden;
+    float: left;
+    display: inline-block;
+    height: 35px;
+    margin-top: 58px;
+}
+#body{
+    margin: 10px 10px 0 10px ;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#header{
+    height: 194px;
+    color: #4448ff;
+    font-family: cursive;
+    font-size: 60px;
+    text-align: justify;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+p{
+    color:white;
+    font-size: large;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    line-height: 140%;
+}
+#logo{
+    float: right;
+    vertical-align: top;
+}
+h1{
+    color: white;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
 }
 a{
     /*color: rgb(18, 149, 200);*/
@@ -13,33 +56,39 @@ a{
 }
 ul{
     background-color: darkgrey;
-    display: inline-block;
-    border-radius: 5px;
+    /* border-radius: 0 5px 5px 0;*/
     font-size: large;
     padding: 5px;
-    margin-top: 0px;
-    margin-left:0px;
-    display: inline-block;
+    -webkit-padding-start: 5px;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0
 }
-#Bar{
-    display: inline-block;
-    visibility: hidden;
-    align-self: auto;
-    vertical-align: middle;
-}
-
 ul li{
-    display: inline-block;
+    list-style: none;
+    padding: 6px;
+    font-size: 22px;
 }
-ul li:after{
-    content: ' |';
-}
-ul li:last-child::after{
-    content: none;
+ul li:only-of-type{
+    border-bottom: solid;
+    border-color: black;
 }
 #Nav:hover ~ #Bar{
     visibility: visible;
 }
 #Bar:hover{
     visibility: visible;
+}
+ul li:hover{
+    border-radius: 4px;
+    background-color: gray;
+}
+#img1{
+    float: left;
+    width:40%;
+    border-radius: 10px;
+}
+#img2{
+    float: right;
+    width: 40%;
+    border-radius: 10px;
 }
