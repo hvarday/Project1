@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#body{
+    color: cornflowerblue;
+    font-size: larger;
+}
+#headback{
+    width: 50px;
+    height: 50px;
+    background-color: firebrick;
+    text-decoration: none;
+    color: #dedede;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    border-style: solid;
+    border-color: firebrick;
+    border-width: 1px;
+}
+#headback:hover{
+    border-style: solid;
+    border-color: white;
+    background-color: #c62727;
+    color: white;
+}
+#fb{
+    background-image: url("fb41.jpg");
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+}
