@@ -55,38 +55,93 @@ body{
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    display: none;
+    opacity: 0;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    -webkit-transition: all 100000000s;
+    -moz-transition:    all 100000000s;
+    -ms-transition:     all 100000000s;
+    -o-transition:      all 100000000s;
+    transition:         all 100000000s;
 
 }
 .cse:hover ~ .cseinf{
-    display: block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .mat6:hover ~ .mat6inf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .mat5:hover ~ .mat5inf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .eng:hover ~.enginf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .chem:hover ~ .cheminf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .eg:hover ~ .eginf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .cheml:hover ~ .chemlinf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .mat5l:hover ~ .matl5inf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .engl:hover ~ .englinf{
-    display:block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
 .csel:hover ~ .cselinf{
-    display: block;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition:    all 0s;
+    -ms-transition:     all 0s;
+    -o-transition:      all 0s;
+    transition:         all 0s;
 }
